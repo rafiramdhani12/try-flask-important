@@ -12,7 +12,7 @@ os.makedirs(PROCESSED_FOLDER, exist_ok=True)
 
 @app.route("/")
 def main():
-    web_title = "main page"
+    web_title = "background remover"
     # ! parameter pertama untuk render file utama yg ke 2 untuk variable / data apa yg ingin di pharsing
     return render_template('index.html',web_title=web_title)
 
